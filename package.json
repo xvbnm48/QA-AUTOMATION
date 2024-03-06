@@ -1,0 +1,18 @@
+{
+  "name": "learn-qa-auto",
+  "version": "1.0.0",
+  "description": "learning qa automation to bluebird",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "fariz",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-json-schema": "^6.1.0",
+    "path": "^0.12.7",
+    "require-all": "^3.0.0",
+    "supertest": "^6.3.4"
+  }
+}
