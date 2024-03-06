@@ -1,17 +1,17 @@
 const path = require('path');
 const scriptName = path.basename(__filename);
-
+const account = require('../../global-variables.json');
 
 const test_data = {
     "title": scriptName,
     "header": {},
     "body":{
-        "name":"vini",
-        "email":"vini1212@hiradazzle.com",
-        "password":"vini123"
+        "name":"viniui",
+        "email":account.__ACCOUNT__.__EMAIL__,
+        "password":account.__ACCOUNT__.__PASSWORD__
     },
     "expected_result": {
-        "status_code":500,
+        "status_code":200,
         // "body": {
         //     data: {
         //         "status": "success login",
