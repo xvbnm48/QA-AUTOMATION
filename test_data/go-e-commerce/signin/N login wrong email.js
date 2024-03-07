@@ -1,6 +1,6 @@
 const path = require('path');
 const scriptName = path.basename(__filename);
-const account = require('../../global-variables.json');
+const account = require('../../../global-variables.json');
 
 
 const test_data = {

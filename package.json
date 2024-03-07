@@ -14,5 +14,8 @@
     "path": "^0.12.7",
     "require-all": "^3.0.0",
     "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }

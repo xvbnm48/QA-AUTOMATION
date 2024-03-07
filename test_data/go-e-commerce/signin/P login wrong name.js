@@ -1,13 +1,12 @@
 const path = require('path');
 const scriptName = path.basename(__filename);
-const account = require('../../global-variables.json');
-
+const account = require('../../../global-variables.json');
 
 const test_data = {
     "title": scriptName,
     "header": {},
     "body":{
-        "name":account.__ACCOUNT__.__USERNAME__,
+        "name":"viniui",
         "email":account.__ACCOUNT__.__EMAIL__,
         "password":account.__ACCOUNT__.__PASSWORD__
     },
